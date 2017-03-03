@@ -1,0 +1,3 @@
+# Dockerfile for Jenkins Data Volume Container
+FROM jenkins
+VOLUME ["/var/jenkins_home"]
